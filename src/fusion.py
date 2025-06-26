@@ -1,6 +1,25 @@
 from __future__ import annotations
 from dataclasses import dataclass, field
-from typing import List
+from typing import List, Protocol
+
+class StrategieRendement(Protocol):
+    def calculer(self, obligation: Obligation) -> float:
+        ...
+
+class RendementTauxFixe:
+    def calculer(self, obligation: Obligation) -> float:
+        return obligation.nominal * (1 + obligation.taux) ** obligation.maturite
+
+class ObligationFactory:
+    @staticmethod
+    def creer_obligation(
+        nom: str, maturite: int, taux: float, nominal: float,
+        strategie: StrategieRendement = None
+    ) -> Obligation:
+        if strategie is None:
+            strategie = RendementTauxFixe()
+        return Obligation(nom, maturite, taux, nominal, strategie)
+
 
 @dataclass(order=True)
 class Obligation:
@@ -8,6 +27,7 @@ class Obligation:
     maturite: int
     taux: float
     nominal: float
+    strategie_rendement: StrategieRendement = field(default_factory=RendementTauxFixe, repr=False, compare=False)
     rendement: float = field(init=False, repr=False, compare=False)
 
     def __post_init__(self) -> None:
@@ -17,10 +37,10 @@ class Obligation:
             raise ValueError("Le taux doit être positif")
         if self.nominal <= 0:
             raise ValueError("Le nominal doit être positif")
-        self.rendement = self.nominal * (1 + self.taux) ** self.maturite
+        self.rendement = self.calcul_rendement()
 
     def calcul_rendement(self) -> float:
-        self.rendement = self.nominal * (1 + self.taux) ** self.maturite
+        self.rendement = self.strategie_rendement.calculer(self)
         return self.rendement
 
 @dataclass
@@ -32,7 +52,9 @@ class Portefeuille:
         total = 0
         for obl in self.obligations:
             if self.annee <= obl.maturite:
-                total += obl.nominal * (1 + obl.taux) ** self.annee
+                total += obl.strategie_rendement.calculer(
+                    Obligation(obl.nom, self.annee, obl.taux, obl.nominal, obl.strategie_rendement)
+                )
         return total
 
 @dataclass
