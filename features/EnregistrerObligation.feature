@@ -10,10 +10,8 @@ Ceci afin de développer la vision que j'ai de ma position.
     Then le <rendement1> est calculé
 
     Examples:
-      | nom1  | maturite1 | taux1 | nominal1 | rendement1 |
-      | SG    | 8         | 0.003 | 1500     | 1536.38    |
-
-
+      | nom1 | maturite1 | taux1 | nominal1 | rendement1 |
+      | SG   | 8         | 0.003 | 1500     | 1536.38    |
 
   Scenario Outline: Refus d'une obligation à maturité, taux ou nominal négatif
     Given l'enregistrement d'une obligation avec <nom1>, <maturite1>, <taux1>, <nominal1>
@@ -21,5 +19,7 @@ Ceci afin de développer la vision que j'ai de ma position.
     Then le système la refuse <isBad>
 
     Examples:
-    | nom1  | maturite1 | taux1 | nominal1 | isBad     |
-    | SG    | 8         | -0.003| 1500     | True      |
+      | nom1 | maturite1 | taux1 | nominal1 | isBad |
+      | SG   | -5        | 0.003 | 1500     | True  |
+      | SG   | 8         | -0.01 | 1500     | True  |
+      | SG   | 8         | 0.003 | -100     | True  |
