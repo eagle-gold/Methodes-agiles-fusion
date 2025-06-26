@@ -12,7 +12,7 @@ class Obligation:
 
     def __post_init__(self) -> None:
         if self.maturite <= 0:
-            raise ValueError*("La maturité doit être positive")
+            raise ValueError("La maturité doit être positive")
         if self.taux < 0:
             raise ValueError("Le taux doit être positif")
         if self.nominal <= 0:
