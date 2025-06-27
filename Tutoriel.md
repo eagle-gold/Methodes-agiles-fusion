@@ -117,7 +117,8 @@ Il s'agit de faire passer à notre solution un test d'acceptance. Développons u
 
 Il nous suffit d'exécuter notre feature, avec un peu de chance tout sera au vert :)
 
-![image](https://github.com/user-attachments/assets/153048e6-eecd-459b-94a3-06b5a04542b8)
+![image](https://github.com/user-attachments/assets/bd22145c-0c97-48b6-bd11-b1a17e298d26)
+
 
 On est bon !
 
