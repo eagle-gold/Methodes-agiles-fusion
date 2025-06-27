@@ -119,6 +119,12 @@ Il nous suffit d'exécuter notre feature, avec un peu de chance tout sera au ver
 
 ![image](https://github.com/user-attachments/assets/bd22145c-0c97-48b6-bd11-b1a17e298d26)
 
+Reprenons avec de nouvelles features,
+La deuxieme consiste à calculer la position à un instant t
+![image](https://github.com/user-attachments/assets/c21a59f2-0adb-4657-a045-a490505f06e1)
+![image](https://github.com/user-attachments/assets/41b01f65-6983-4b79-9f77-b42c79d34e2d)
+![image](https://github.com/user-attachments/assets/a1e661a0-8020-403a-8a4c-e5721dcd2851)
+
 
 On est bon !
 
