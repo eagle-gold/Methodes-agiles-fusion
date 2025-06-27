@@ -74,16 +74,18 @@ Des Tests sur Portefeuille
 ![image](https://github.com/user-attachments/assets/ebbef7b8-2487-4038-a3ef-78b17512bf6c)
 
 Des Tests sur ObligationFactory
-
 ![image](https://github.com/user-attachments/assets/b1e3fb77-ff05-47cf-b314-19b236cee2b0)
 
-Des Tests sur RendementTauxFixe 
+Des Tests sur RendementTauxFixe
 ![image](https://github.com/user-attachments/assets/95e58456-2c58-4c6e-aea6-ff2533d7e14d)
 
 
 Des Tests sur CoachIA
 ![image](https://github.com/user-attachments/assets/de1098d1-45c6-4e4b-ba0e-0482a531a709)
 
+Il suffit de cliquer sur "Executer les tests" et avec beaucoup d'espoir, tout devrait être vert !
+
+![image](https://github.com/user-attachments/assets/e6f04081-610c-4f07-bb02-af92cb3ede16)
 
 
 
