@@ -68,10 +68,22 @@ Et enfin notre Coach IA, si précieux pour développer les meilleures stratégie
 Dorénavement, réalisons des tests JUnit sur notre solution
 
 Des Tests sur Obligation
-![image](https://github.com/user-attachments/assets/f1e4305b-4856-4405-9e0e-b0ac7590c133)
+![image](https://github.com/user-attachments/assets/e3eb84e9-eb80-4635-83ad-52bb64cab5c2)
+
+Des Tests sur Portefeuille
+![image](https://github.com/user-attachments/assets/ebbef7b8-2487-4038-a3ef-78b17512bf6c)
+
+Des Tests sur ObligationFactory
+
+![image](https://github.com/user-attachments/assets/b1e3fb77-ff05-47cf-b314-19b236cee2b0)
+
+Des Tests sur RendementTauxFixe 
+![image](https://github.com/user-attachments/assets/95e58456-2c58-4c6e-aea6-ff2533d7e14d)
+
 
 Des Tests sur CoachIA
-![image](https://github.com/user-attachments/assets/4931c70a-b861-4277-ade4-709babf9b15d)
+![image](https://github.com/user-attachments/assets/de1098d1-45c6-4e4b-ba0e-0482a531a709)
+
 
 
 
