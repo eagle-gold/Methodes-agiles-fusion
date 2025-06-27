@@ -125,6 +125,12 @@ La deuxieme consiste à calculer la position à un instant t
 ![image](https://github.com/user-attachments/assets/41b01f65-6983-4b79-9f77-b42c79d34e2d)
 ![image](https://github.com/user-attachments/assets/a1e661a0-8020-403a-8a4c-e5721dcd2851)
 
+La troisième à entrainer notre intelligence artificielle
+![image](https://github.com/user-attachments/assets/42d4a042-f9a8-4516-a82e-129f002e5448)
+![image](https://github.com/user-attachments/assets/de9389bc-6d9c-41bc-9be4-ca1782ea609c)
+![image](https://github.com/user-attachments/assets/e6914a11-025f-49b4-aeea-7a66ac12fb5a)
+![image](https://github.com/user-attachments/assets/23cfa137-1bad-4d94-a551-14ee8f2c0a2e)
+
 
 On est bon !
 
