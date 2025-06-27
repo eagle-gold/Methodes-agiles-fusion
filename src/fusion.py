@@ -10,17 +10,6 @@ class RendementTauxFixe:
     def calculer(self, obligation: Obligation) -> float:
         return obligation.nominal * (1 + obligation.taux) ** obligation.maturite
 
-class ObligationFactory:
-    @staticmethod
-    def creer_obligation(
-        nom: str, maturite: int, taux: float, nominal: float,
-        strategie: StrategieRendement = None
-    ) -> Obligation:
-        if strategie is None:
-            strategie = RendementTauxFixe()
-        return Obligation(nom, maturite, taux, nominal, strategie)
-
-
 @dataclass(order=True)
 class Obligation:
     nom: str
