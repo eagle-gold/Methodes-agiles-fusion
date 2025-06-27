@@ -49,33 +49,31 @@ Maintenant nous créons une nouvelle classe Portefeuille, qui va contenir une ob
 ![image](https://github.com/user-attachments/assets/cd014480-bc50-4d98-8471-48a651bd0115)
 
 
+Nous allons poursuivre le développement en suivant le pattern strategy, commençons par réaliser notre classe interface StrategieRendement
+
+![image](https://github.com/user-attachments/assets/e5214024-4720-45b0-8e18-a0af0dd76f67)
+
+Puis la classe RendementTauxFixe qui l'implèmente
+
+![image](https://github.com/user-attachments/assets/9c73fec4-05e5-4b91-9c7a-27aa35eab482)
+
+Notre Facotry d'obligation 
+
+![image](https://github.com/user-attachments/assets/c4a4b2e5-3491-4fa4-9721-295a3dd5f4e3)
+
+Et enfin notre Coach IA, si précieux pour développer les meilleures stratégies d'investissement
+
+![image](https://github.com/user-attachments/assets/3f5f0b50-158c-496a-a92d-fd0e02105733)
+
+Dorénavement, réalisons des tests JUnit sur notre solution
+
+Des Tests sur Obligation
+![image](https://github.com/user-attachments/assets/f1e4305b-4856-4405-9e0e-b0ac7590c133)
+
+Des Tests sur CoachIA
+![image](https://github.com/user-attachments/assets/4931c70a-b861-4277-ade4-709babf9b15d)
 
 
-
-Maintenant nous pouvons sauvegarder nos instances dans la fixture de la classe test.
-
-![image](https://github.com/user-attachments/assets/bc847f0d-5349-484c-bf56-6f58c55ffff4)
-
-
-Nous allons créer une classe PortefeuilleTemps, constituée d’une collection de portefeuille. Tous contiennent la même obligation mais à des instants différents.
-
-![image](https://github.com/user-attachments/assets/38b054db-7e4d-4b05-94af-97c5f8550c44)
-
-Accompagnée de sa classe de test : 
-
-![image](https://github.com/user-attachments/assets/39f4cfde-ad4b-4d19-aae0-d917ab3b82c2)
-
-![image](https://github.com/user-attachments/assets/e778b435-771c-4921-a4cf-2a5ed146606b)
-
-
-Pour finir la classe Position, composé d'une collection de PortefeuilleTemps
-
-
-
-
-![image](https://github.com/user-attachments/assets/920ffb4e-05ef-4cba-9279-9489df580400)
-
-![image](https://github.com/user-attachments/assets/719b2218-fbbb-48a6-85b4-9212cc8df57f)
 
 ## Behave et PyCharm
 Il s'agit ici d'implémenter nos classes de BlueJ en Python, pour cela nous allons utiliser l'IDE PyCharm.
