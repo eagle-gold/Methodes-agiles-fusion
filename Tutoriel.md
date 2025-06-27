@@ -19,14 +19,16 @@ Nous pouvons la compiler et l’instancier même sans schéma clair de sa consti
 ![image](https://github.com/user-attachments/assets/5cc0d42b-a0a7-4351-9b45-1ddfb06a9b7e)
 
 Commençons à mieux définir notre classe.
-![image](https://github.com/user-attachments/assets/534a89ae-690a-403b-b38e-8e0276a81aa7)
+![image](https://github.com/user-attachments/assets/83026085-bd9c-4f56-98c7-bef28e3930c1)
 
 
+
+![image](https://github.com/user-attachments/assets/43be6376-f8b7-40a3-9524-7ba26a5a8cd1)
 
 
  
 
-![image](https://github.com/user-attachments/assets/ed01d1c5-3714-4434-a52a-31a4867ded7b)
+
 
  
 Instancions notre classe et essayons nos méthodes GetTaux. getNominal et getMaturite
