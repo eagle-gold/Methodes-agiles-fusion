@@ -92,10 +92,11 @@ Il suffit de cliquer sur "Executer les tests" et avec beaucoup d'espoir, tout de
 ## Behave et PyCharm
 Il s'agit ici d'implémenter nos classes de BlueJ en Python, pour cela nous allons utiliser l'IDE PyCharm.
 
-![image](https://github.com/user-attachments/assets/c46f9d41-9507-4d6f-8235-459320bf5810)
+![image](https://github.com/user-attachments/assets/c1700851-e9d9-4ac2-b11f-c31feea5e379)
 
-![image](https://github.com/user-attachments/assets/ff07760c-ff02-42fa-bcf9-076cef9707f4)
+![image](https://github.com/user-attachments/assets/36800640-42f5-4f56-816f-5477142d98b7)
 
+![image](https://github.com/user-attachments/assets/f5ba7150-f1c5-4f3d-9f9b-7073e98bed57)
 
 
 Dorénavant nous allons effectuer des tests fonctionnels dits de Behavior-Driven Development 
